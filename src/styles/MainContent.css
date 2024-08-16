@@ -1,0 +1,97 @@
+
+@import url('https://fonts.cdnfonts.com/css/itc-cheltenham-std');
+
+@font-face {
+  font-family: Chelton;
+  src: url("/src/assets/fonts/CheltenhamStdBook.otf");
+}
+
+.main-content{
+  width: 100%;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card{
+ display: flex;
+ flex-wrap: wrap;
+}
+.card-news-grp{
+  width: 35%;
+  padding-right: 20px;
+}
+.img{
+  width: 60%;
+  /* height: 100px; */
+}
+img{
+  width: 100%;
+}
+.card-news-title{
+  font-family: Chelton;
+  font-weight: bold;
+   font-size: 1.3rem;
+   color: black;
+ word-spacing: 2px;
+}
+.card-news{
+  font-family: Chelton;
+  font-weight: 600;
+  gap: 10px;
+  text-align: start;
+  font-size: 0.8rem;
+  /* line-height: 1rem; */
+  color: #807f7f;
+  letter-spacing: 1px;
+}
+
+.spc{
+  color: #a8a5a5;
+  font-weight: 400;
+}
+
+.hrk {
+  margin: 8px 8px; 
+  border: none; 
+  height: 0.4px; 
+  background-color: black; 
+}
+
+.hrk2{
+  margin-right: 15px;
+}
+
+@media (max-width: 800px) {
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+   }
+   .card-news-grp{
+    width: 100%;
+    padding-right: 20px;
+  }
+  .img{
+    width: 100%;
+  }
+}
+
+
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .card{
+    flex-direction: column;
+    gap: 10px;
+   }
+   .card-news-grp{
+    width: 100%;
+    padding-right: 20px;
+  }
+  .img{
+    width: 100%;
+  }
+}

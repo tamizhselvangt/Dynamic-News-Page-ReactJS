@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: Chomsky;
+  src: url("../assets/fonts/Chomsky.otf");
+}
+
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* padding: 20px; */
+  width: 80%;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.menu-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  text-align: start;
+  font-family: "Libre Franklin", sans-serif;
+  margin-bottom: 20px;
+}
+
+.menu-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+.menu-item {
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+.bold-footer{
+  font-weight: 800;
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+
+.small-txt{
+  font-size: 0.7rem;
+  padding: 5px 0px;
+}
+.act{
+  border-left: 1px solid rgb(161, 159, 159);
+  padding-left: 10px;
+  border-width: 0.0001rem;
+}
+
+hr{
+  background-color: rgb(208, 206, 206);
+}
+.footer-title{
+  font-size: 1.5rem;
+  font-family: Chomsky;
+  text-align: start;
+  width: 80%;
+}
+
+
+
+.footer-container {
+  padding: 20px;
+  text-align: center;
+  width: 80%;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-link {
+  /* margin: 5px 10px; */
+  font-size: 0.6rem;
+  cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+
+  .menu-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.cdnfonts.com/css/itc-cheltenham-std');
+
+@font-face {
+  font-family: Chelton;
+  src: url("/src/assets/fonts/CheltenhamStdBook.otf");
+}
+
+.aside{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.aside-news{
+  width: 60%;
+  font-family: Chelton;
+  text-align: start;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.aside-img{
+  width: 35%;
+  height: 10vh;
+  overflow: hidden;
+}
+
+.special{
+  font-size: 0.6rem;
+  font-family: Chelton;
+}
+
+
+.aside-group{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .aside-group{
+    display: none;
+  }
+}
